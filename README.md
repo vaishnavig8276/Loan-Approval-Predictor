@@ -78,3 +78,38 @@ To deeper understand feature interactions, we used dodged histograms:
 Finally, we generated a comprehensive heatmap of the correlation matrix for all features (including one-hot encoded variables). 
 * This visual tool helps identify multicollinearity (where independent variables are highly correlated with each other) and strong predictors.
 * The heatmap visually confirms the strong positive correlation between `Credit_Score` and `Loan_Approved` and negative correlations with features like `DTI_Ratio`.
+
+
+## 🔍 Exploratory Data Analysis (EDA)
+
+Before building the predictive model, we conducted a comprehensive Exploratory Data Analysis to uncover underlying patterns, distributions, and relationships within the dataset.
+
+### 1. Target Variable Distribution (Class Imbalance)
+The target variable `Loan_Approved` shows a significant class imbalance, which highlights the need for specialized evaluation metrics like the F1-score.
+
+> **[Drag & Drop your 'Is Loan approved or not?' Pie Chart image here]**
+
+### 2. Demographic Insights: Education Level
+Examining the educational background of the applicants reveals that the majority of applicants are graduates.
+
+> **[Drag & Drop your 'Education_Level' Bar Plot image here]**
+
+### 3. Financial Distributions
+We analyzed the distributions of key financial attributes like Applicant Income and Coapplicant Income to understand the income spread across all applicants.
+
+> **[Drag & Drop your 'Applicant_Income' & 'Coapplicant_Income' Histogram images here]**
+
+### 4. Outlier Detection and Feature Relationships
+Box plots were utilized to identify outliers and understand how numerical features relate to the loan approval status. We found that approved loans are strongly associated with higher median credit scores.
+
+> **[Drag & Drop your 4 Box plots (grid) image here]**
+
+### 5. Interaction Analysis
+Dodged histograms provided a deeper understanding of feature interactions, clearly showing that denied loans (No) are heavily skewed towards lower credit scores compared to approved loans (Yes).
+
+> **[Drag & Drop your 'Credit_Score' (blue & orange) Histogram image here]**
+
+### 6. Correlation Matrix
+Finally, the correlation heatmap helps identify multicollinearity and strong predictors, visually confirming the strong positive correlation between `Credit_Score` and `Loan_Approved`.
+
+> **[Drag & Drop your colorful Heatmap image here]**
