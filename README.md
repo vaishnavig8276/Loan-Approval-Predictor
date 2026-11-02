@@ -107,7 +107,8 @@ Box plots were utilized to identify outliers and understand how numerical featur
 ### 5. Interaction Analysis
 Dodged histograms provided a deeper understanding of feature interactions, clearly showing that denied loans (No) are heavily skewed towards lower credit scores compared to approved loans (Yes).
 
-> **[Drag & Drop your 'Credit_Score' (blue & orange) Histogram image here]**
+> **<img width="1582" height="715" alt="image" src="https://github.com/user-attachments/assets/6090501f-4390-436d-a82e-f83e26e07711" />
+**
 
 ### 6. Correlation Matrix
 Finally, the correlation heatmap helps identify multicollinearity and strong predictors, visually confirming the strong positive correlation between `Credit_Score` and `Loan_Approved`.
