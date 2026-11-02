@@ -78,39 +78,17 @@ To deeper understand feature interactions, we used dodged histograms:
 Finally, we generated a comprehensive heatmap of the correlation matrix for all features (including one-hot encoded variables). 
 * This visual tool helps identify multicollinearity (where independent variables are highly correlated with each other) and strong predictors.
 * The heatmap visually confirms the strong positive correlation between `Credit_Score` and `Loan_Approved` and negative correlations with features like `DTI_Ratio`.
+<img width="861" height="717" alt="Screenshot 2026-11-03 000509" src="https://github.com/user-attachments/assets/6d8a6919-2db2-4394-b256-2ab1a3b984a6" />
+<img width="981" height="856" alt="Screenshot 2026-11-03 000457" src="https://github.com/user-attachments/assets/ee6437a6-c497-45c0-9466-2ac41021f421" />
+<img width="1582" height="715" alt="image" src="https://github.com/user-attachments/assets/b680fd00-f524-46b7-a67b-beea4ba92455" />
 
 
-## 🔍 Exploratory Data Analysis (EDA)
 
-Before building the predictive model, we conducted a comprehensive Exploratory Data Analysis to uncover underlying patterns, distributions, and relationships within the dataset.
+> <img width="1513" height="838" alt="Screenshot 2026-11-03 000755" src="https://github.com/user-attachments/assets/2c94606f-21ef-4a33-a39d-7aba838df766" />
+<img width="733" height="802" alt="Screenshot 2026-11-03 000731" src="https://github.com/user-attachments/assets/21ee91b9-8c75-4710-87e5-0bcc7556e1c2" />
+<img width="862" height="730" alt="Screenshot 2026-11-03 000715" src="https://github.com/user-attachments/assets/22eae91c-bd7d-444f-9ff3-6103ec21689f" />
+<img width="877" height="840" alt="Screenshot 2026-11-03 000703" src="https://github.com/user-attachments/assets/5d658cb1-f753-49be-9397-337f19d9af15" />
+<img width="793" height="787" alt="Screenshot 2026-11-03 000639" src="https://github.com/user-attachments/assets/a09b4f04-661a-428c-ac2b-6deeec838a35" />
+<img width="553" height="595" alt="Screenshot 2026-11-03 000632" src="https://github.com/user-attachments/assets/36cf30de-3976-4a23-8c64-07c6f7a5b79d" />
+<img width="830" height="770" alt="Screenshot 2026-11-03 000616" src="https://github.com/user-attachments/assets/491bb541-acbb-47c0-a6e8-e01f10b289f5" />
 
-### 1. Target Variable Distribution (Class Imbalance)
-The target variable `Loan_Approved` shows a significant class imbalance, which highlights the need for specialized evaluation metrics like the F1-score.
-
-> **[Drag & Drop your 'Is Loan approved or not?' Pie Chart image here]**
-
-### 2. Demographic Insights: Education Level
-Examining the educational background of the applicants reveals that the majority of applicants are graduates.
-
-> **[Drag & Drop your 'Education_Level' Bar Plot image here]**
-
-### 3. Financial Distributions
-We analyzed the distributions of key financial attributes like Applicant Income and Coapplicant Income to understand the income spread across all applicants.
-
-> **[Drag & Drop your 'Applicant_Income' & 'Coapplicant_Income' Histogram images here]**
-
-### 4. Outlier Detection and Feature Relationships
-Box plots were utilized to identify outliers and understand how numerical features relate to the loan approval status. We found that approved loans are strongly associated with higher median credit scores.
-
-> **[Drag & Drop your 4 Box plots (grid) image here]**
-
-### 5. Interaction Analysis
-Dodged histograms provided a deeper understanding of feature interactions, clearly showing that denied loans (No) are heavily skewed towards lower credit scores compared to approved loans (Yes).
-
-> **<img width="1582" height="715" alt="image" src="https://github.com/user-attachments/assets/6090501f-4390-436d-a82e-f83e26e07711" />
-**
-
-### 6. Correlation Matrix
-Finally, the correlation heatmap helps identify multicollinearity and strong predictors, visually confirming the strong positive correlation between `Credit_Score` and `Loan_Approved`.
-
-> **[Drag & Drop your colorful Heatmap image here]**
